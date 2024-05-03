@@ -3,28 +3,20 @@
 
 // ==================== WRITE YOUR OPTIONAL DATA TYPES IF YOU NEED =============
 
-enum CITIES 
-{
-	Arad,    Bucharest, Craiova,  Drobeta, Eforie,
-	Fagaras, Giurgiu,   Hirsova,  Iasi,    Lugoj,
-	Mehadia, Neamt,     Oradea,   Pitesti, Rimnicu_Vilcea,
-	Sibiu,   Timisoara, Urziceni, Vaslui,  Zerind
-};
-
 
 // ====== WRITE YOUR COMPULSORY (BUT SPECIFIC TO THE PROBLEM) DATA TYPES =======
 
 enum ACTIONS // All possible actions
 {
-	Go_Arad,    Go_Bucharest, Go_Craiova,  Go_Drobeta, Go_Eforie,
-	Go_Fagaras, Go_Giurgiu,   Go_Hirsova,  Go_Iasi,    Go_Lugoj,
-	Go_Mehadia, Go_Neamt,     Go_Oradea,   Go_Pitesti, Go_Rimnicu_Vilcea,
-	Go_Sibiu,   Go_Timisoara, Go_Urziceni, Go_Vaslui,  Go_Zerind
+    Move2u1r,Move2u1l,Move1u2r,Move1u2l,
+    Move2d1r,Move2d1l,Move1d2r,Move1d2l,
+    
 };
 
 typedef struct State  
 {
-    enum CITIES city;
+    char pos_x;
+    char pos_y;
     float h_n;   // Heuristic function
       
 }State;
