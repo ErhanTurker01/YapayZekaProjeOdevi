@@ -10,8 +10,14 @@ int main()
     enum METHODS method;
     int Max_Level, level;
 	float alpha;
+    
+    printf("1 --> 8x8\n");
+    printf("2 --> 16x16\n");
+    printf("3 --> 24x24\n");
+    printf("Select a table size for game of chess: ");
+    scanf("%d",&chessTableSize);
    
-    // This part must be updated if a new algorithm is added. 
+    // This part must be updated if a new algorithm is added.
     printf("1 --> Breast-First Search\n");
     printf("2 --> Uniform-Cost Search\n");
     printf("3 --> Depth-First Search\n");

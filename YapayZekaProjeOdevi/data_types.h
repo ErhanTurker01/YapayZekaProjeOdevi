@@ -3,6 +3,7 @@
 
 // ==================== WRITE YOUR OPTIONAL DATA TYPES IF YOU NEED =============
 
+static char chessTableSize;
 
 // ====== WRITE YOUR COMPULSORY (BUT SPECIFIC TO THE PROBLEM) DATA TYPES =======
 
