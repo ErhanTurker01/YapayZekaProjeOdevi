@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F86B2C12BE3D2A100CFCE82 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B2C02BE3D2A100CFCE82 /* main.c */; };
 		8F86B2CE2BE3D30D00CFCE82 /* SpecificToProblem.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B2C72BE3D30D00CFCE82 /* SpecificToProblem.c */; };
 		8F86B2CF2BE3D30D00CFCE82 /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B2C82BE3D30D00CFCE82 /* HashTable.c */; };
 		8F86B2D02BE3D30D00CFCE82 /* Standart_Search.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B2CC2BE3D30D00CFCE82 /* Standart_Search.c */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		8F86B2BD2BE3D2A100CFCE82 /* YapayZekaProjeOdevi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YapayZekaProjeOdevi; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F86B2C02BE3D2A100CFCE82 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8F86B2C72BE3D30D00CFCE82 /* SpecificToProblem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SpecificToProblem.c; sourceTree = "<group>"; };
 		8F86B2C82BE3D30D00CFCE82 /* HashTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
 		8F86B2C92BE3D30D00CFCE82 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 		8F86B2BF2BE3D2A100CFCE82 /* YapayZekaProjeOdevi */ = {
 			isa = PBXGroup;
 			children = (
-				8F86B2C02BE3D2A100CFCE82 /* main.c */,
 				8F86B2CB2BE3D30D00CFCE82 /* data_types.h */,
 				8F86B2CD2BE3D30D00CFCE82 /* GRAPH_SEARCH.c */,
 				8F86B2CA2BE3D30D00CFCE82 /* GRAPH_SEARCH.h */,
@@ -140,7 +137,6 @@
 				8F86B2D02BE3D30D00CFCE82 /* Standart_Search.c in Sources */,
 				8F86B2CF2BE3D30D00CFCE82 /* HashTable.c in Sources */,
 				8F86B2CE2BE3D30D00CFCE82 /* SpecificToProblem.c in Sources */,
-				8F86B2C12BE3D2A100CFCE82 /* main.c in Sources */,
 				8F86B2D12BE3D30D00CFCE82 /* GRAPH_SEARCH.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

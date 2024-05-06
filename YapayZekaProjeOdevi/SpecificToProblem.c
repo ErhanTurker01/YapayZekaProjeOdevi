@@ -25,65 +25,27 @@ State* Create_State()
     scanf("%c%c",&state->pos_x,&state->pos_y);
     Print_State(state);
     return state;
-    	printf("Enter the code of the state: ");
-        scanf("%d", &state->city);
-   	}while(state->city<0 && state->city>=CITY_NUMBER);
-	       
-    return state;    
 }
 
 //______________________________________________________________________________
 void Print_State(const State *const state)
 {
-    switch(state->city){
-         case  Arad:      printf("Arad"); break;
-         case  Bucharest: printf("Bucharest"); break;
-         case  Craiova:   printf("Craiova"); break;
-         case  Drobeta:   printf("Drobeta"); break;
-         case  Eforie:    printf("Eforie"); break;
-         case  Fagaras:   printf("Fagaras"); break;
-         case  Giurgiu:   printf("Giurgiu"); break;
-         case  Hirsova:   printf("Hirsova"); break;
-         case  Iasi:      printf("Iasi"); break;
-         case  Lugoj:     printf("Lugoj"); break;
-         case  Mehadia:   printf("Mehadia"); break;
-         case  Neamt:     printf("Neamt"); break;
-         case  Oradea:    printf("Oradea"); break;
-         case  Pitesti:   printf("Pitesti"); break;
-         case  Rimnicu_Vilcea: printf("Rimnicu Vilcea"); break;
-         case  Sibiu:     printf("Sibiu"); break;
-         case  Timisoara: printf("Timisoara"); break;
-         case  Urziceni:  printf("Urziceni"); break;
-         case  Vaslui:    printf("Vaslui"); break;
-         case  Zerind:    printf("Zerind"); break;
-    }  
+    printf("%c%d",state->pos_x,state->pos_y)
 }
 
 //______________________________________________________________________________
 void Print_Action(const enum ACTIONS action)
 {
    switch(action){
-         case  Go_Arad:      printf("Go_Arad"); break;
-         case  Go_Bucharest: printf("Go_Bucharest"); break;
-         case  Go_Craiova:   printf("Go_Craiova"); break;
-         case  Go_Drobeta:   printf("Go_Drobeta"); break;
-         case  Go_Eforie:    printf("Go_Eforie"); break;
-         case  Go_Fagaras:   printf("Go_Fagaras"); break;
-         case  Go_Giurgiu:   printf("Go_Giurgiu"); break;
-         case  Go_Hirsova:   printf("Go_Hirsova"); break;
-         case  Go_Iasi:      printf("Go_Iasi"); break;
-         case  Go_Lugoj:     printf("Go_Lugoj"); break;
-         case  Go_Mehadia:   printf("Go_Mehadia"); break;
-         case  Go_Neamt:     printf("Go_Neamt"); break;
-         case  Go_Oradea:    printf("Go_Oradea"); break;
-         case  Go_Pitesti:   printf("Go_Pitesti"); break;
-         case  Go_Rimnicu_Vilcea: printf("Go_Rimnicu_Vilcea"); break;
-         case  Go_Sibiu:     printf("Go_Sibiu"); break;
-         case  Go_Timisoara: printf("Go_Timisoara"); break;
-         case  Go_Urziceni:  printf("Go_Urziceni"); break;
-         case  Go_Vaslui:    printf("Go_Vaslui"); break;
-         case  Go_Zerind:    printf("Go_Zerind"); break;
-    }        
+         case  Move1d2l:        printf("Knight jumps 1 down 2 left"); break;
+         case  Move1d2r:        printf("Knight jumps 1 down 2 right"); break;
+         case  Move1u2l:        printf("Knight jumps 1 up 2 left"); break;
+         case  Move1u2r:        printf("Knight jumps 1 up 2 right"); break;
+         case  Move2d1l:        printf("Knight jumps 1 down 2 left"); break;
+         case  Move2d1r:        printf("Knight jumps 1 down 2 right"); break;
+         case  Move2u1l:        printf("Knight jumps 1 up 2 left"); break;
+         case  Move2u1r:        printf("Knight jumps 1 up 2 right"); break;
+    }
 }
 
 //______________________________________________________________________________
