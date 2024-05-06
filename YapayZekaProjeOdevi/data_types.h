@@ -9,8 +9,14 @@ static char chessTableSize;
 
 enum ACTIONS // All possible actions
 {
-    Move2u1r,Move2u1l,Move1u2r,Move1u2l,
-    Move2d1r,Move2d1l,Move1d2r,Move1d2l,
+    Move2u1r = 0b1110,
+    Move2u1l = 0b1100,
+    Move1u2r = 0b1011,
+    Move1u2l = 0b1001,
+    Move2d1r = 0b0110,
+    Move2d1l = 0b0100,
+    Move1d2r = 0b0011,
+    Move1d2l = 0b0001
     
 };
 
