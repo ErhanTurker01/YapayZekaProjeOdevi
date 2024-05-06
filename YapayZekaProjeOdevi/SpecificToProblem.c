@@ -16,15 +16,15 @@ State* Create_State()
 {
 	State *state = (State*)malloc(sizeof(State));
     if(state==NULL)
-    	Warning_Memory_Allocation(); 
-   
-   	for(state->city=Arad; state->city<=Zerind; state->city++){        
-    	printf("%d --> ", state->city);
-        Print_State(state);
-        printf("\n");
-   	}        
-   
-   	do{ 
+    	Warning_Memory_Allocation();
+    printf("Select a starting point: ");
+    printf("A, B, C... ");
+    printf("%c\n",'A' -1 + chessTableSize);
+    printf("1, 2, 3... ");
+    printf("%d\n",-1 + chessTableSize);
+    scanf("%c%c",&state->pos_x,&state->pos_y);
+    Print_State(state);
+    return state;
     	printf("Enter the code of the state: ");
         scanf("%d", &state->city);
    	}while(state->city<0 && state->city>=CITY_NUMBER);
