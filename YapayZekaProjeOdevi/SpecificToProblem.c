@@ -12,25 +12,33 @@
 #include <stdlib.h>
 
 //______________________________________________________________________________
-State* Create_State()
+State* Create_State(void)
 {
-	State *state = (State*)malloc(sizeof(State));
+    State *state = (State*)malloc(sizeof(State));
     if(state==NULL)
-    	Warning_Memory_Allocation();
-    printf("Select a starting point: ");
-    printf("A, B, C... ");
+        Warning_Memory_Allocation();
+    printf("Select a point: ");
+    printf("A, B, C...");
     printf("%c\n",'A' -1 + chessTableSize);
-    printf("1, 2, 3... ");
-    printf("%d\n",-1 + chessTableSize);
-    scanf("%c%c",&state->pos_x,&state->pos_y);
-    Print_State(state);
+    printf("1, 2, 3...");
+    printf("%d\n",chessTableSize);
+    printf("Selection: ");
+    scanf("%s",&state->posStr);
+    if(state->pos_y[1] == '\0'){
+        state->pos_y_int = state->pos_y[0] - '0';
+        state->pos_y[1] = state->pos_y[0];
+        state->pos_y[0] = '0';
+    }
+    else{
+        state->pos_y_int = (state->pos_y[0] - '0') * 10 + state->pos_y[1] - '0';
+    }
     return state;
 }
 
 //______________________________________________________________________________
 void Print_State(const State *const state)
 {
-    printf("%c%d",state->pos_x,state->pos_y);
+    printf("%s",state->posStr);
 }
 
 //______________________________________________________________________________
@@ -67,7 +75,7 @@ int Result(const State *const parent_state, const enum ACTIONS action, Transitio
 //______________________________________________________________________________
 float Compute_Heuristic_Function(const State *const state, const State *const goal)
 {
-    return abs(state->pos_x - goal->pos_x) + abs(state->pos_y - goal->pos_y);
+    return abs(state->pos_x - goal->pos_x) + abs(state->pos_y_int - goal->pos_y_int);
 }
 
 //_______________ Update if your goal state is not determined initially ___________________________________
