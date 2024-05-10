@@ -2,29 +2,30 @@
 #define DATA_TYPES_H
 
 // ==================== WRITE YOUR OPTIONAL DATA TYPES IF YOU NEED =============
-
-static char chessTableSize;
+#include <stdint.h>
+extern uint8_t chessTableSize;
 
 // ====== WRITE YOUR COMPULSORY (BUT SPECIFIC TO THE PROBLEM) DATA TYPES =======
 
 enum ACTIONS // All possible actions
 {
-    Move2u1r = 0b1110,
-    Move2u1l = 0b1100,
-    Move1u2r = 0b1011,
-    Move1u2l = 0b1001,
-    Move2d1r = 0b0110,
-    Move2d1l = 0b0100,
-    Move1d2r = 0b0011,
-    Move1d2l = 0b0001
+    Move2u1r,Move2u1l,Move1u2r,Move1u2l,
+    Move2d1r,Move2d1l,Move1d2r,Move1d2l
     
 };
 
 typedef struct State  
 {
-    char pos_x;
-    char pos_y;
+    union{
+        struct{
+            char pos_x;
+            char pos_y[2];
+            char nullChar;
+        };
+        char posStr[4];
+    };
     float h_n;   // Heuristic function
+    uint8_t pos_y_int;
       
 }State;
 
