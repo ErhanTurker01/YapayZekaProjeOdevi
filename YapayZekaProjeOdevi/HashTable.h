@@ -6,7 +6,7 @@
 // ========  YOUR COMPULSORY (BUT SPECIFIC TO THE PROBLEM) COMMANDS ============
 #define HASH_TABLE_BASED_SIZE 64
 #define HASH_TABLE_INCREASING_RATE 16
-#define MAX_KEY_SIZE 3
+#define MAX_KEY_SIZE 4
 
 // ================== YOU DO NOT NEED TO CHANGE THIS PART ======================
 typedef struct {

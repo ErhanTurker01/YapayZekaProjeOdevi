@@ -3,8 +3,10 @@
 #include "GRAPH_SEARCH.h"
 #include "data_types.h"
 
-int main()
-{	
+uint8_t chessTableSize;
+
+int main(void)
+{
     Node root, *goal;
     State *goal_state = NULL;
     enum METHODS method;
@@ -16,6 +18,7 @@ int main()
     printf("3 --> 24x24\n");
     printf("Select a table size for game of chess: ");
     scanf("%d",&chessTableSize);
+    chessTableSize*=8;
    
     // This part must be updated if a new algorithm is added.
     printf("1 --> Breast-First Search\n");
@@ -35,7 +38,7 @@ int main()
 	if(method==GeneralizedAStarSearch){
 	    printf("Enter value of alpha for Generalized A* Search : ");                         
 	    scanf("%f", &alpha);                  
-	}   
+	}
     
     // Creating the root node ... 
     root.parent    = NULL;
@@ -51,6 +54,7 @@ int main()
 	    printf("======== SELECTION OF GOAL STATE =============== \n"); 
 	    goal_state = Create_State();
     }
+    
     
     if(method==GreedySearch || method==AStarSearch || method==GeneralizedAStarSearch){
         root.state.h_n  = Compute_Heuristic_Function(&(root.state), goal_state);

@@ -14,9 +14,9 @@
 //___________________ Create unique char key for each state______________________
 void Generate_HashTable_Key(const State *const state, unsigned char* key) 
 {
-    key[0] = state->pos_x;
-    key[1] = state->pos_y;
-    key[2] = '\0';
+    for (int i=0; i<MAX_KEY_SIZE; i++) {
+        key[i] = state->posStr[i];
+    }
 }
 
 
@@ -50,7 +50,7 @@ static unsigned int hash_func(const char* key, const int size) {
     unsigned int hash = 0, i;
     // a should be a prime number larger than the size of the alphabet
     const int a = 151; 
-    const int length_key = strlen(key);
+    const int length_key = (int)strlen(key);
     
     for (i = 0; i < length_key; i++){
     	hash += (unsigned int)pow(a, length_key - (i+1)) * key[i];

@@ -18,7 +18,7 @@
 
 
 // =========  YOUR COMPULSORY (BUT SPECIFIC TO THE PROBLEM) DECLARATIONS =======
-State* Create_State();
+State* Create_State(void);
 void Print_State(const State *const state);
 void Print_Action(const enum ACTIONS action);
 int Result(const State *const parent_state, const enum ACTIONS action, Transition_Model *const trans_model);
@@ -45,7 +45,7 @@ void Print_Node(const Node *const node);
 int Level_of_Node(Node *const node);
 void Clear_All_Branch(Node *node, int *Number_Allocated_Nodes);
 void Clear_Single_Branch(Node *node, int *Number_Allocated_Nodes);
-void Warning_Memory_Allocation();
+void Warning_Memory_Allocation(void);
 int Compare_States(const State *const state1, const State *const state2);
 Node* Frontier_search(Queue *const frontier, const State *const state);
 void Remove_Node_From_Frontier(Node *const old_child, Queue **const frontier) ; 
