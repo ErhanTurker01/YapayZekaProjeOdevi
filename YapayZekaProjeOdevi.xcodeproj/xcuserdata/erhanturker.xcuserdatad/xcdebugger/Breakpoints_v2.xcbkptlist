@@ -3,4 +3,420 @@
    uuid = "690179B3-576A-4247-8978-E0CA784EAAF0"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97813A5C-3E42-4690-9939-818F5C23ED32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Create_State()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "97813A5C-3E42-4690-9939-818F5C23ED32 - 82fcba6c76885725"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "97813A5C-3E42-4690-9939-818F5C23ED32 - 82fcba6c76885725"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "97813A5C-3E42-4690-9939-818F5C23ED32 - 82fcba6c76885725"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B2F5148-0D2C-41E8-9E4F-FF56198E2D70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/GRAPH_SEARCH.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EA36158-1F43-40A3-A182-8B6B82104068"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/GRAPH_SEARCH.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E92521BF-8CD7-43E4-99F7-DEA060B87E77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/GRAPH_SEARCH.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "E92521BF-8CD7-43E4-99F7-DEA060B87E77 - a9a3fd1b61043d6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/GRAPH_SEARCH.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "E92521BF-8CD7-43E4-99F7-DEA060B87E77 - a9a3fd1b61043dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/GRAPH_SEARCH.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B8DEE1F-C726-4105-81E6-6DB675BDC4AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/GRAPH_SEARCH.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "515F5CD3-FD4C-4177-95F3-3104E58B367B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "Create_State()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "515F5CD3-FD4C-4177-95F3-3104E58B367B - 82fcba6c768854fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "515F5CD3-FD4C-4177-95F3-3104E58B367B - 82fcba6c76885551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "515F5CD3-FD4C-4177-95F3-3104E58B367B - 82fcba6c76885551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCB5BA4F-3014-473F-B9C5-705FE2074A20"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/HashTable.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "Generate_HashTable_Key(state, key)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE3AA3A5-87C1-4FE0-B75D-941A37C01673"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/HashTable.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "ht_search(ht, state)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DFD62E4-513F-4C20-8E0C-730FE05A29F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/Standart_Search.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "First_GoalTest_Search_TREE(method, root, goal_state)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A37288D2-6D95-47B5-8BF8-8D03BE71C20B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/Standart_Search.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "First_GoalTest_Search_TREE(method, root, goal_state)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E13010B-AFD6-478B-B9AD-23C265E35111"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/Standart_Search.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "First_GoalTest_Search_TREE(method, root, goal_state)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5EA03E7-AD9D-4C91-91C9-97B75EF6AA8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "Create_State()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B004C35-F2BB-4752-A1E1-C2A6918183BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "Create_State()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "3B004C35-F2BB-4752-A1E1-C2A6918183BF - 82fcba6c768854fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "3B004C35-F2BB-4752-A1E1-C2A6918183BF - 82fcba6c76885551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Create_State"
+                  moduleName = "YapayZekaProjeOdevi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erhanturker/Documents/xcode/YapayZekaProjeOdevi/YapayZekaProjeOdevi/SpecificToProblem.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "849E651F-444B-4684-BAAE-410400991990"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "Result(parent_state, action, trans_model)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F356A2DE-2A86-45C1-9E90-E1EB8A7F095C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "Result(parent_state, action, trans_model)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00FE04D4-56A3-475C-B626-E840BDF5357B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YapayZekaProjeOdevi/SpecificToProblem.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "Result(parent_state, action, trans_model)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

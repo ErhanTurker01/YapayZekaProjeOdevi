@@ -49,10 +49,10 @@ void Print_Action(const enum ACTIONS action)
          case  Move1d2r:        printf("Knight jumps 1 down 2 right"); break;
          case  Move1u2l:        printf("Knight jumps 1 up 2 left"); break;
          case  Move1u2r:        printf("Knight jumps 1 up 2 right"); break;
-         case  Move2d1l:        printf("Knight jumps 1 down 2 left"); break;
-         case  Move2d1r:        printf("Knight jumps 1 down 2 right"); break;
-         case  Move2u1l:        printf("Knight jumps 1 up 2 left"); break;
-         case  Move2u1r:        printf("Knight jumps 1 up 2 right"); break;
+         case  Move2d1l:        printf("Knight jumps 2 down 1 left"); break;
+         case  Move2d1r:        printf("Knight jumps 2 down 1 right"); break;
+         case  Move2u1l:        printf("Knight jumps 2 up 1 left"); break;
+         case  Move2u1r:        printf("Knight jumps 2 up 1 right"); break;
     }
 }
 
