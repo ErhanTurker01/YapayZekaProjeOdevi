@@ -32,6 +32,8 @@ State* Create_State(void)
     else{
         state->pos_y_int = (state->pos_y[0] - '0') * 10 + state->pos_y[1] - '0';
     }
+    state->h_n = 0;
+    state->nullChar = '\0';
     return state;
 }
 
@@ -84,14 +86,14 @@ int Result(const State *const parent_state, const enum ACTIONS action, Transitio
     new_state.pos_y[1] = new_state.pos_y_int%10 + '0';
     new_state.nullChar = '\0';
     trans_model->new_state = new_state;
-    trans_model->step_cost = 3;
+    trans_model->step_cost = 1;
     return TRUE;
 }
 
 //______________________________________________________________________________
 float Compute_Heuristic_Function(const State *const state, const State *const goal)
 {
-    return abs(state->pos_x - goal->pos_x) + abs(state->pos_y_int - goal->pos_y_int);
+    return (abs(state->pos_x - goal->pos_x) + abs(state->pos_y_int - goal->pos_y_int))/3;
 }
 
 //_______________ Update if your goal state is not determined initially ___________________________________
