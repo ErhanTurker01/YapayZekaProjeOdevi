@@ -60,13 +60,29 @@ void Print_Action(const enum ACTIONS action)
 int Result(const State *const parent_state, const enum ACTIONS action, Transition_Model *const trans_model)
 {
     State new_state;
-    int action_x = ((action&2)*2-1) * (action&1+1);
-    int action_y = ((action&8)*2-1) * (action&3+1);
-    if(parent_state->pos_x+action_x < 1 || parent_state->pos_y+action_y < 'A'){
+    int action_x;
+    int action_y;
+    switch(action){
+        case  Move1d2l:        action_y = -1; action_x = -2; break;
+        case  Move1d2r:        action_y = -1; action_x = 2; break;
+        case  Move1u2l:        action_y = 1; action_x = -2; break;
+        case  Move1u2r:        action_y = 1; action_x = 2; break;
+        case  Move2d1l:        action_y = -2; action_x = -1; break;
+        case  Move2d1r:        action_y = -2; action_x = 1; break;
+        case  Move2u1l:        action_y = 2; action_x = -1; break;
+        case  Move2u1r:        action_y = 2; action_x = 1; break;
+     }
+    if (parent_state->pos_x+action_x < 'A' || parent_state->pos_x+action_x > 'A' - 1 + chessTableSize) {
+        return FALSE;
+    }
+    if(parent_state->pos_y_int+action_y < 1 || parent_state->pos_y_int+action_y > chessTableSize){
         return FALSE;
     }
     new_state.pos_x = parent_state->pos_x + action_x;
-    new_state.pos_y = parent_state->pos_y + action_y;
+    new_state.pos_y_int = parent_state->pos_y_int + action_y;
+    new_state.pos_y[0] = new_state.pos_y_int/10 + '0';
+    new_state.pos_y[1] = new_state.pos_y_int%10 + '0';
+    new_state.nullChar = '\0';
     trans_model->new_state = new_state;
     trans_model->step_cost = 3;
     return TRUE;
