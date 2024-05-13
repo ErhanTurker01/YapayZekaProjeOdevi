@@ -268,8 +268,8 @@
             filePath = "YapayZekaProjeOdevi/Standart_Search.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "First_GoalTest_Search_TREE(method, root, goal_state)"
             landmarkType = "9">
          </BreakpointContent>
@@ -284,8 +284,8 @@
             filePath = "YapayZekaProjeOdevi/Standart_Search.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "First_GoalTest_Search_TREE(method, root, goal_state)"
             landmarkType = "9">
          </BreakpointContent>
@@ -300,8 +300,8 @@
             filePath = "YapayZekaProjeOdevi/Standart_Search.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "First_GoalTest_Search_TREE(method, root, goal_state)"
             landmarkType = "9">
          </BreakpointContent>
