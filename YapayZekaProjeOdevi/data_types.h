@@ -3,6 +3,8 @@
 
 // ==================== WRITE YOUR OPTIONAL DATA TYPES IF YOU NEED =============
 #include <stdint.h>
+extern unsigned char restrictedKeys[24*24][4];
+extern size_t sizeOfRestrictedKeys;
 extern uint8_t chessTableSize;
 
 // ====== WRITE YOUR COMPULSORY (BUT SPECIFIC TO THE PROBLEM) DATA TYPES =======

@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "GRAPH_SEARCH.h"
 #include "data_types.h"
 
 uint8_t chessTableSize;
+unsigned char restrictedKeys[24*24][4];
+size_t sizeOfRestrictedKeys;
 
 int main(void)
 {
@@ -55,6 +58,20 @@ int main(void)
 	    goal_state = Create_State();
     }
     
+    printf("======== SELECTION OF RESTRICTED STATES =============== \n");
+    sizeOfRestrictedKeys = 0;
+    do {
+        unsigned char str[4];
+        scanf("%s",str);
+        if ((str[0] == 'X' || str[0] == 'x') && str[1] == '\0') break;
+        if(str[2] == '\0'){
+            str[2] = str[1];
+            str[1] = '0';
+        }
+        str[3] = 0;
+        memcpy(restrictedKeys[sizeOfRestrictedKeys++], str, 4);
+    } while (TRUE);
+
     
     if(method==GreedySearch || method==AStarSearch || method==GeneralizedAStarSearch){
         root.state.h_n  = Compute_Heuristic_Function(&(root.state), goal_state);

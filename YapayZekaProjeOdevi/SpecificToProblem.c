@@ -10,6 +10,7 @@
 #include "data_types.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 //______________________________________________________________________________
 State* Create_State(void)
@@ -79,6 +80,9 @@ int Result(const State *const parent_state, const enum ACTIONS action, Transitio
     }
     if(parent_state->pos_y_int+action_y < 1 || parent_state->pos_y_int+action_y > chessTableSize){
         return FALSE;
+    }
+    for (int i=0; i < sizeOfRestrictedKeys; i++) {
+        if(!strcmp(restrictedKeys[i], parent_state->posStr)) return FALSE;
     }
     new_state.pos_x = parent_state->pos_x + action_x;
     new_state.pos_y_int = parent_state->pos_y_int + action_y;
