@@ -59,18 +59,14 @@ int main(void)
     }
     
     printf("======== SELECTION OF RESTRICTED STATES =============== \n");
+    printf("Type x to end selections\n");
     sizeOfRestrictedKeys = 0;
     do {
-        unsigned char str[4];
-        scanf("%s",str);
-        if ((str[0] == 'X' || str[0] == 'x') && str[1] == '\0') break;
-        if(str[2] == '\0'){
-            str[2] = str[1];
-            str[1] = '0';
-        }
-        str[3] = 0;
-        memcpy(restrictedKeys[sizeOfRestrictedKeys++], str, 4);
-    } while (TRUE);
+        State *restState = Create_State();
+        if (restState == NULL) break;
+        memcpy(restrictedKeys[sizeOfRestrictedKeys++], restState->posStr, 4);
+        free(restState);
+    } while (sizeOfRestrictedKeys < chessTableSize*chessTableSize);
 
     
     if(method==GreedySearch || method==AStarSearch || method==GeneralizedAStarSearch){

@@ -25,6 +25,27 @@ State* Create_State(void)
     printf("%d\n",chessTableSize);
     printf("Selection: ");
     scanf("%s",&state->posStr);
+    if ((state->pos_x == 'X' || state->pos_x == 'x') && state->pos_y[0] == '\0') {
+        free(state);
+        return NULL;
+    }
+    if (state->pos_x <= 'z' && state->pos_x >= 'a') state->pos_x += 'A' - 'a';
+    if (state->pos_x > 'Z' || state->pos_x < 'A') {
+        printf("NOT A VALID STATE!");
+        exit(-1);        
+    }
+    if (state->pos_y[0] > '9' || state->pos_y[0] < '0') {
+        printf("NOT A VALID STATE!");
+        exit(-1);
+    }
+    if ((state->pos_y[1] > '9' || state->pos_y[1] < '0') && state->pos_y[1] != '\0') {
+        printf("NOT A VALID STATE!");
+        exit(-1);
+    }
+    if (state->pos_y[0] == 0 && state->pos_y[1] == 0) {
+        printf("NOT A VALID STATE!");
+        exit(-1);
+    }
     if(state->pos_y[1] == '\0'){
         state->pos_y_int = state->pos_y[0] - '0';
         state->pos_y[1] = state->pos_y[0];
